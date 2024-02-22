@@ -195,7 +195,7 @@ html{
     padding-right: 1.0rem;
 }
 
-/* .round_links{
+.round_links a{
     height: 3.2rem;
     display: flex;
     align-items: center;
@@ -207,8 +207,7 @@ html{
     font-weight: 525;
     padding-left: 1.0rem;
     padding-right: 1.0rem;
-} */
-
+}
 #second-heading{
     padding-top: 8.0rem;
     font-size: 6.0rem;
@@ -342,6 +341,7 @@ html{
     display: flex;
     justify-content: center;
 }
+
 .fifth-right img{
    width: 63.0rem;
 }
@@ -355,8 +355,7 @@ html{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    /* padding-left: 6.0rem;
-    padding-right: 6.0rem; */
+    
     
 }
 
@@ -366,7 +365,7 @@ html{
     align-items: center;
     justify-content: center;
     color: white;
-    border: 1..3rem solid white;
+    border: .13rem solid white;
     border-radius: 4.0rem;
     font-size: 2.0rem;
     font-weight: 525;
@@ -417,7 +416,7 @@ html{
     align-items: center;
     justify-content: center;
     color: white;
-    border: 1..3rem solid white;
+    border: .13rem solid white;
     border-radius: 4.0rem;
     font-size: 2.0rem;
     font-weight: 500;
@@ -451,6 +450,7 @@ html{
 .last-part{
     margin-top: 7.0rem;
     margin-bottom: 4.0rem;
+    font-size: 1.6rem;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -473,7 +473,7 @@ footer li{
 .cards{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: top;
     gap: 3.0rem;
     
     height: 40.0rem;
@@ -483,7 +483,7 @@ footer li{
 
 .cards a{
     color: #00000094;
-    font-size: 1.6rem;
+    font-size: 1.9rem;
 }
 .cards h3{
     font-size: 1.9rem;
@@ -530,6 +530,10 @@ footer li{
 
 .last2 p{
     font-size: 1.9rem;
+}
+.last2 a{
+    font-size: 1.9rem;
+    cursor: pointer;
 }
 #lp{
     font-size: 1.6rem;
